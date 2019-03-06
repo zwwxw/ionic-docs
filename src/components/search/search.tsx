@@ -1,24 +1,46 @@
 import { Component, State } from '@stencil/core';
 import { Close, Search } from '../../icons';
+import { debounce } from '../../utils';
 
 @Component({
   tag: 'docs-search',
   styleUrl: 'search.css'
 })
 export class DocsSearch {
+  private worker = new Worker('/docs/assets/search/worker.js');
+
   @State() focused = false;
+  @State() results = [];
   @State() value = '';
 
   handleFocus = ({ type }: Event) => {
     this.focused = type === 'focus';
   }
 
-  handleInput = (event) => {
+  handleInput = debounce((event) => {
     this.value = event.target.value;
+
+    if (this.value) {
+      this.worker.postMessage(this.value);
+    }
+  }, 200);
+
+  handleResult = (event) => {
+    this.results = event.data || [];
+    console.log(this.results);
   }
 
   clear = () => {
     this.value = '';
+    this.results = [];
+  }
+
+  componentDidLoad() {
+    this.worker.addEventListener('message', this.handleResult);
+  }
+
+  componentWillUnload() {
+    this.worker.removeEventListener('message', this.handleResult);
   }
 
   hostData() {

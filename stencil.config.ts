@@ -17,6 +17,8 @@ export const config: Config = {
     { src: 'demos' },
     { src: 'components/color-gen/demo/index.html', dest: 'pages/theming/color-generator/index.html' },
     { src: 'robots.txt', dest: '../robots.txt' },
-    { src: '../node_modules/@ionic/core', dest: 'assets/ionic' }
+    { src: '../node_modules/@ionic/core', dest: 'assets/ionic' },
+    { src: 'components/search/worker.js', dest: 'assets/search/worker.js' },
+    { src: 'components/search/data/index.json', dest: 'assets/search/index.json' }
   ]
 };

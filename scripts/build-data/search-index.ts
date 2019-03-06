@@ -5,10 +5,16 @@ import glob from 'fast-glob';
 const PAGES_PATH = resolve(__dirname, '../../src/pages');
 const INDEX_PATH = resolve(__dirname, '../../src/components/search/data/index.json');
 
+interface SearchRecord {
+  title: string;
+  href: string;
+  type: string;
+  tags: string[];
+}
+
 export default {
   title: 'Build search index',
-  task: () => buildIndex(PAGES_PATH),
-  skip: () => true
+  task: () => buildIndex(PAGES_PATH)
 };
 
 async function buildIndex(dir) {
@@ -21,13 +27,15 @@ async function buildIndex(dir) {
   );
 }
 
-async function toRecord(path) {
-  const { title } = await readJson(path);
+async function toRecord(path): Promise<SearchRecord> {
+  const { title, tags = [] } = await readJson(path);
   const href = toHref(path);
+  const type = toType(href);
   return {
     title,
     href,
-    type: 'page'
+    type,
+    tags
   };
 }
 
@@ -41,4 +49,9 @@ function getPaths(cwd) {
 const toHref = (path: string) => {
   const [, page] = /\/pages\/(.+)\.json$/.exec(path);
   return `/docs/${page}`;
+};
+
+const toType = (href: string) => {
+  const isComponent = /^\/docs\/api\/.+$/.test(href);
+  return isComponent ? 'component' : 'page';
 };
