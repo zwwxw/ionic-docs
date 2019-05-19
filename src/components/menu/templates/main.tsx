@@ -16,6 +16,19 @@ const items = {
     'iOS Setup': '/docs/installation/ios',
     'Android Setup': '/docs/installation/android',
   },
+  'Angular': {
+    'Performance': '/docs/guides/performance',
+    'Security': '/docs/guides/security',
+    'Angular': {
+      'Getting Started': '/docs/guides/angular-getting-started',
+    },
+    'React': {
+      'Getting Started': '/docs/guides/react/getting-started'
+    },
+    'Vue': {
+      'Getting Started': '/docs/guides/vue/getting-started'
+    },
+  },
   'Building': {
     'Starting': '/docs/building/starting',
     'Scaffolding': '/docs/building/scaffolding',
@@ -28,21 +41,6 @@ const items = {
     'Contributing': '/docs/building/contributing',
     'Web View': '/docs/building/webview',
     'Ionic Storage': '/docs/building/storage'
-  },
-  'Guides': {
-    'Ionic': {
-      'Performance': '/docs/guides/ionic/performance',
-      'Security': '/docs/guides/ionic/security'
-    },
-    'Angular': {
-      'Getting Started': '/docs/guides/angular/getting-started',
-    },
-    'React': {
-      'Getting Started': '/docs/guides/react/getting-started'
-    },
-    'Vue': {
-      'Getting Started': '/docs/guides/vue/getting-started'
-    }
   },
   'Layout': {
     'Structure': '/docs/layout/structure',
