@@ -164,7 +164,12 @@ While this looks nice in theory, we find that the Web Animations API is a bit li
 
 Web Animations supports the exact same features in CSS animations (so no springs or physics), but with the ability to pause/play and step through animations. It won't allow you to do anything you couldn't do with CSS animations beyond programatic play/pause/etc.
 
-In general, we recommend using a third party JS animation library if you wish to do anything beyond basic animations, and for basic animations just using CSS is likely going to be easier. The bar for good mobile animations has gone up dramatically and a library with support for spring animations and beyond is going to help you reach that bar.
+In general, we recommend using a third party JS animation library if you wish to do anything beyond basic animations, and for basic animations just using CSS is likely going to be easier. The bar for good mobile animations has gone up dramatically and a library with support for spring animations and beyond is going to help you stay competitive.
 
 ## Gesture-driven Animations
 
+If we combine all of these techniques, then we can build UI experiences that respond to user touch and gestures, all while providing smooth and fluid animations throughout. 
+
+Building gesture-powered animations requires tracking the user's touch, and then doing something visually pleasing when the user finishes their gesture (such as "throwing" an element on swipe).
+
+To learn more, continue on to the Gesture part of the guide where we break down how to build these types of experiences in Ionic, combined with the animation knowledge we've just gained.
