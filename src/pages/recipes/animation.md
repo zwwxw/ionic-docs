@@ -160,7 +160,7 @@ box.animate(
 );
 ```
 
-While this looks nice in theory, we find that the Web Animations API is a bit limited, and in our experience the same animation in CSS can behave differently in the Web Animation API (and not for the better).
+While this looks nice in theory, we find that the Web Animations API is a bit limited, and in our experience the same animation in CSS can behave differently in the Web Animation API depending on the browser.
 
 Web Animations supports the exact same features in CSS animations (so no springs or physics), but with the ability to pause/play and step through animations. It won't allow you to do anything you couldn't do with CSS animations beyond programatic play/pause/etc.
 
