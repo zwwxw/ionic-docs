@@ -10,4 +10,3 @@ One of the great things about building an app with Ionic is how much customizati
 To help developers build a powerful animation and gesture skillset for rich, custom UI experiences, we've put together a set of recipes and tutorials showing you how to build your own gesture and animation driven UI.
 
 
-
