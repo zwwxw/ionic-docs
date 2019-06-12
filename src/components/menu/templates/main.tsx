@@ -43,6 +43,11 @@ const items = {
     'Color Generator': '/docs/theming/color-generator',
     'Advanced': '/docs/theming/advanced',
   },
+  'Recipes': {
+    'Animations': '/docs/recipes/animations',
+    'Gestures': '/docs/recipes/gestures',
+    'Bottom Drawer': '/docs/recipes/bottom-drawer'
+  },
   'Angular': {
     'Overview': '/docs/angular/overview',
     'Build Your First App': '/docs/angular/your-first-app',
