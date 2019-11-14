@@ -252,22 +252,49 @@ Used to store large data, such as images.
 The following code example adds a blob to the document under the <code>avatar</code> property.
 
 ```typescript
-let is = getAsset("avatar.jpg");
-try {
-    let blob = new Blob("image/jpeg", is);
-    newTask.setBlob("avatar", blob);
-    database.save(newTask);
-
-    let taskBlob = newTask.getBlob("avatar");
-    let bytes = taskBlob.getContent();
-} catch (e) {
-    console.log(e.toString());
-} finally {
+public async saveImageBlob() {
+    // Get a reference to a file - various ways to do so
+    let filepath = getAsset("avatar.jpg");
     try {
-        is.close();
-    } catch (IOException e) {
-
+        // Ionic Native File plugin
+        let fileEntry = await this.file.resolveLocalFilesystemUrl(filepath) as any;
+        fileEntry.file((file) => {
+            const fileReader = new FileReader();
+            fileReader.onloadend = () => {
+                let blob = new Blob("image/jpeg", fileReader.result as ArrayBuffer);
+                newTask.setBlob("avatar", blob);
+                database.save(newTask);
+                }
+            fileReader.readAsArrayBuffer(file);
+            }
+        } catch (e) {
+        console.log(e.toString());
     }
+}
+
+// Retrieve image blob then convert to base64 format
+public getImageAsBase64() {
+    return new Promise((resolve, reject) => {
+      this.savedDoc.getBlobContent("avatar", this.database).then((docBlob) => {
+        var bytes = new Uint8Array(docBlob);
+        var blob = new window.Blob([bytes.buffer], { type: "image/jpeg"});
+
+        var reader = new FileReader();
+        reader.onloadend = () => {
+          resolve(reader.result);
+        };
+        reader.readAsDataURL(blob);
+      });
+    });
+}
+
+// Alternatively, retrieve blog image then convert to objectURL
+public async getImageUsingObjectUrl() {
+    let docBlob = await this.savedDoc.getBlobContent("test", this.database);
+    let arrayBufferView = new Uint8Array(docBlob);
+    let blob = new window.Blob([ arrayBufferView.buffer ], { type: "image/jpeg"});
+    let objectUrl = window.URL.createObjectURL(blob);
+    return this.sanitizer.bypassSecurityTrustUrl(objectUrl);
 }
 ```
 
