@@ -22,7 +22,7 @@ const start = () => {
   app.use(compress());
   app.use(helmet());
 
-  app.get('/', (_, res) => res.redirect(301, '/docs/'));
+  app.get('/', (_, res) => res.redirect(301, '/docs/v4/components/'));
 
   app.use((req, res, next) => {
     const pathname = path.join(parseurl(req).pathname, 'index.html');
