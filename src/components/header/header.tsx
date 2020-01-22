@@ -36,10 +36,10 @@ export class DocsHeader {
     return [
       <docs-dropdown label={section}>
         <section>
-          <stencil-route-link url="https://ionicframework.com/docs/">Framework v5{section === 'Framework v5' ? <Checkmark/> : null}</stencil-route-link>
+          <a href="https://ionicframework.com/docs/">Framework v5{section === 'Framework v5' ? <Checkmark/> : null}</a>
           <stencil-route-link url="/docs/v4/">Framework v4{section === 'Framework v4' ? <Checkmark/> : null}</stencil-route-link>
-          <stencil-route-link url="https://ionicframework.com/docs/appflow">Appflow {section === 'Appflow' ? <Checkmark/> : null}</stencil-route-link>
-          <stencil-route-link url="https://ionicframework.com/docs/studio">Studio {section === 'Studio' ? <Checkmark/> : null}</stencil-route-link>
+          <a href="https://ionicframework.com/docs/appflow">Appflow {section === 'Appflow' ? <Checkmark/> : null}</a>
+          <a href="https://ionicframework.com/docs/studio">Studio {section === 'Studio' ? <Checkmark/> : null}</a>
         </section>
         {section === 'Framework v4' ? <section>
           <a href="https://ionicframework.com/docs/v3">Framework v3</a>
@@ -48,10 +48,10 @@ export class DocsHeader {
         </section> : null}
       </docs-dropdown>,
       section === 'Framework v4' ? <div class="SectionNav-tabs">
-        <stencil-route-link url="https://ionicframework.com/docs/" urlMatch={[/^\/docs(?!\/(api|components|cli|native|enterprise)).*$/]}>{l10n.getString('header-guide')}</stencil-route-link>
-        <stencil-route-link url="/https://ionicframework.comdocs/v4/components" urlMatch={['/docs/api', '/docs/components']}>{l10n.getString('header-components')}</stencil-route-link>
-        <stencil-route-link url="https://ionicframework.com/docs/cli">{l10n.getString('header-cli')}</stencil-route-link>
-        <stencil-route-link url="https://ionicframework.com/docs/native" urlMatch={['/docs/native', '/docs/enterprise']}>{l10n.getString('header-native')}</stencil-route-link>
+        <a href="https://ionicframework.com/docs/">{l10n.getString('header-guide')}</a>
+        <stencil-route-link url="/docs/v4/components" urlMatch={['/docs/api', '/docs/components']}>{l10n.getString('header-components')}</stencil-route-link>
+        <a href="https://ionicframework.com/docs/cli">{l10n.getString('header-cli')}</a>
+        <a href="https://ionicframework.com/docs/native">{l10n.getString('header-native')}</a>
       </div> : null,
     ];
   }
@@ -62,19 +62,13 @@ export class DocsHeader {
       <header>
         <docs-menu-toggle onClick={this.onToggleClick}/>
 
-        <stencil-route-link url="https://ionicframework.com/docs/">
+        <a href="https://ionicframework.com/docs/">
           <Logo class="HeaderLogo"/>
-        </stencil-route-link>
+        </a>
 
         <header-mobile-collapse>
           <nav class="SectionNav">
             <stencil-route-switch>
-              <stencil-route url="https://ionicframework.com/docs/appflow">
-                {this.renderMenu('Appflow')}
-              </stencil-route>
-              <stencil-route url="https://ionicframework.com/docs/studio">
-                {this.renderMenu('Studio')}
-              </stencil-route>
               <stencil-route>
                 {this.renderMenu('Framework v4')}
               </stencil-route>

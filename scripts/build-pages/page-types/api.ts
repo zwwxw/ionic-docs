@@ -51,7 +51,7 @@ const getDemoUrl = async (component) => {
   const hasDemo = await fs.pathExists(join(DEMOS_PATH, demoPath));
   if (hasDemo) {
     return {
-      demoUrl: `/docs/demos/${demoPath}`,
+      demoUrl: `/docs/v4/demos/${demoPath}`,
       demoSourceUrl: `https://github.com/ionic-team/ionic-docs/tree/master/src/demos/${demoPath}`
     };
   }

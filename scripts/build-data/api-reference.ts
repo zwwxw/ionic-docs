@@ -9,7 +9,7 @@ const OUTPUT_PATH = resolve(
 
 const reference = components.map(component => [
   component.tag,
-  `/docs/api/${component.tag.slice(4)}`
+  `/docs/v4/api/${component.tag.slice(4)}`
 ]);
 
 export default {
