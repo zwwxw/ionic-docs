@@ -92,7 +92,7 @@ const renderCordovaPromotion = (isPremier: string) => {
       <h2>Stuck on a Cordova issue?</h2>
       <docs-card class="cordova-ee-card" header="Don't waste precious time on plugin issues." href="https://ionicframework.com/sales?product_of_interest=Ionic%20Native">
         <div>
-          <img src="/docs/assets/icons/native-cordova-bot.png" class="cordova-ee-img" />
+          <img src="/docs/v4/assets/icons/native-cordova-bot.png" class="cordova-ee-img" />
           <p>If you're building a serious project, you can't afford to spend hours troubleshooting. Ionic’s experts offer premium advisory services for both community plugins and premier plugins.</p>
           <docs-button class="native-ee-detail">Contact Us Today!</docs-button>
         </div>
@@ -189,7 +189,7 @@ const renderPremier = (premierSlug: string) => {
       <docs-card class="cordova-ee-card"
         header="Plugins and solutions built and supported by Ionic." href={`/docs/enterprise/${premierSlug}`}>
         <div>
-          <img src="/docs/assets/icons/native-enterprise.png" class="cordova-ee-img" />
+          <img src="/docs/v4/assets/icons/native-enterprise.png" class="cordova-ee-img" />
           <p>Featuring regular release cycles, security and bug fixes, and guaranteed SLAs.</p>
           <docs-button class="native-ee-detail">Available here</docs-button>
         </div>

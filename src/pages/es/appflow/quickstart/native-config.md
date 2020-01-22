@@ -35,7 +35,7 @@ Next:
 * Overwrite the app name with `Snapcats - Dev`
 * Overwrite the deploy channel to be `Development`
 
-![Create Native Config](/docs/assets/img/appflow/gif-new-native-configs.gif)
+![Create Native Config](/docs/v4/assets/img/appflow/gif-new-native-configs.gif)
 
 ## Add the Native Config to an Automation
 
@@ -43,8 +43,8 @@ To take full advantage of automating your development environment, you'll want t
 
 In your `Automations` tab, click `Edit` from the `Options` icon on the right of your automation, select the configuration from the `Native Config` dropdown and click `Save`.
 
-![Add Native Config to Automation](/docs/assets/img/appflow/gif-add-native-config.gif)
+![Add Native Config to Automation](/docs/v4/assets/img/appflow/gif-add-native-config.gif)
 
 Now your apps should automatically use a different `bundle id`, app name, and deploy channel between your development and production builds. This means you can install both your development and production applications on the same device and easily tell them apart! 🔥
 
-![Multiple Enviroments on a Device](/docs/assets/img/appflow/ss-multiple-envs-device.png)
+![Multiple Enviroments on a Device](/docs/v4/assets/img/appflow/ss-multiple-envs-device.png)

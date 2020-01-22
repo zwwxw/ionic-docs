@@ -102,4 +102,4 @@ Apart from the `--commit` option, all others require the full name setup within 
 
 Look for the name on the Environments and Channels pages in Appflow:
 
-![CLI Environments List](/docs/assets/img/appflow/cli-environments-list.png) ![CLI Channels List](/docs/assets/img/appflow/cli-channels-list.png)
+![CLI Environments List](/docs/v4/assets/img/appflow/cli-environments-list.png) ![CLI Channels List](/docs/v4/assets/img/appflow/cli-channels-list.png)

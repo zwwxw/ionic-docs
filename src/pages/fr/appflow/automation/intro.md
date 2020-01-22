@@ -17,6 +17,6 @@ Automations enable you and your team to utilize the full CI/CD powers of Appflow
 
 ##### Helpful links
 
-<docs-cards class="max-measure"> <docs-card header="Create an Automation" href="/docs/appflow/quickstart/automation" icon="/docs/assets/icons/guide-quickstart-icon.png"> 
+<docs-cards class="max-measure"> <docs-card header="Create an Automation" href="/docs/appflow/quickstart/automation" icon="/docs/v4/assets/icons/guide-quickstart-icon.png"> 
 
 Create your first Android development binary automation using our quickstart guide!</docs-card> </docs-cards>

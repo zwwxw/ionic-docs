@@ -23,7 +23,7 @@ one Profile, so we recommend making things like "Real App Store Profile", etc.
 and therefore must use a </b>Production</b> type profile.
 </blockquote>
 
-![Add Profile](/docs/assets/img/appflow/ss-add-profile.png)
+![Add Profile](/docs/v4/assets/img/appflow/ss-add-profile.png)
 
 You'll need to choose the [certificate files you generated](/docs/appflow/package/credentials) and upload them
 as well as put in any passwords needed to access the credentials.

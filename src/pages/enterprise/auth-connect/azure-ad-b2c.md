@@ -24,7 +24,7 @@ Sign into the [Azure Portal](https://portal.azure.com) then navigate to the `Azu
 
 Begin by creating a new Application under Manage -> Applications -> Add.
 
-![Azure app configuration settings](/docs/assets/img/native/azure-app-settings.png)
+![Azure app configuration settings](/docs/v4/assets/img/native/azure-app-settings.png)
 
 Give your app a new name, then toggle `Yes` for both _Web App_ and _Allow implicit flow_. For _Reply URL_, specify `http://localhost:8100/` along with the name of your app's core login page (typically, `login`).
 

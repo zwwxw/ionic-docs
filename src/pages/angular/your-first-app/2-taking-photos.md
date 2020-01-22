@@ -41,7 +41,7 @@ Notice the magic here: there's no platform-specific code (web, iOS, or Android)!
 
 Save the file, and if it's not running already, restart the development server in your browser by running `ionic serve`. On the Photo Gallery tab, click the Camera button. If your computer has a webcam of any sort, a modal window appears. Take a selfie!
 
-![Camera API on the web](/docs/assets/img/guides/first-app-cap-ng/camera-web.png)
+![Camera API on the web](/docs/v4/assets/img/guides/first-app-cap-ng/camera-web.png)
 
 _(Your selfie is probably much better than mine)_
 

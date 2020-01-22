@@ -11,7 +11,7 @@ nextUrl: '/docs/appflow/deploy/channels'
 
 部署构建是你的应用程序构建，其中仅包括静态资源 (JavaScript, HTML, 字体和图像)，可以通过 [部署](/docs/appflow/deploy/intro) 发送给客户。 部署构建可以通过在侧边栏的 **Builds**部分下的under **Deploy**Ionic Dashboard面板手动创建。 您将能够从Appflow知道的可用提交列表中进行选择。 如果有可用的提交，您将需要向Git远程推送一个新的提交，以便它在Appflow中显示。
 
-![导航到部署构建](/docs/assets/img/appflow/deploy-builds-create-location.png)
+![导航到部署构建](/docs/v4/assets/img/appflow/deploy-builds-create-location.png)
 
 部署构建将做以下工作:
 

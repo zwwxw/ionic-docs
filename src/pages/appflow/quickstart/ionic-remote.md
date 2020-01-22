@@ -17,7 +17,7 @@ Ionic Appflow using Git.
 </blockquote>
 
 ## Link your Repository
-![Ionic Link Command](/docs/assets/img/appflow/ionic-link.gif)
+![Ionic Link Command](/docs/v4/assets/img/appflow/ionic-link.gif)
 
 To link your local repo, simply run `ionic link` in the root directory of your existing project
 and choose `Ionic Appflow` as your git remote. This will allow you to select the Dashboard app you'd like to link to,

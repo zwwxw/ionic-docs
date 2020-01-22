@@ -24,7 +24,7 @@ This will compile the app and then watch for changes in source files. When chang
 After compilation, the app is opened inside a Serve Window.
 
 <figure class="device">
-  <img alt="Serve Window" src="/docs/assets/img/studio/ss-serve-window.png" />
+  <img alt="Serve Window" src="/docs/v4/assets/img/studio/ss-serve-window.png" />
 </figure>
 
 The Serve Window toolbar offers features such as changing the device viewport, switching between portrait and landscape orientation, reloading the webview, and opening the DevTools for debugging.
@@ -40,7 +40,7 @@ Clicking the debug button will open a proper instance of the Chrome DevTools for
 For information on how to use the Chrome DevTools, see the [Chrome DevTools documentation](https://developers.google.com/web/tools/chrome-devtools/).
 
 <figure>
-  <img alt="Chrome DevTools" src="/docs/assets/img/studio/ss-devtools.png" />
+  <img alt="Chrome DevTools" src="/docs/v4/assets/img/studio/ss-devtools.png" />
 </figure>
 
 ## Running Apps
@@ -52,7 +52,7 @@ Since running an app will install it on an actual native device, some additional
 To run an app, click the Play button in the upper right-hand corner of Ionic Studio. Then choose *Run* from the dropdown.
 
 <figure>
-  <img alt="Run Modal" src="/docs/assets/img/studio/ss-run-modal.png" />
+  <img alt="Run Modal" src="/docs/v4/assets/img/studio/ss-run-modal.png" />
 </figure>
 
 Choose a platform and a target device, which can be an emulator or hardware device plugged in to your computer.

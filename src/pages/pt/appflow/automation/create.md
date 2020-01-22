@@ -23,7 +23,7 @@ There are a number of customizations available to specify the specific behavior 
 
 All automations need a name and git branch to trigger from. Whenever code is pushed to the selected branch, the automation will run.
 
-![Choosing an Automation Type](/docs/assets/img/appflow/ss-automation-create-type.png)
+![Choosing an Automation Type](/docs/v4/assets/img/appflow/ss-automation-create-type.png)
 
 #### Fields
 
@@ -45,7 +45,7 @@ It is possible to specify one or multiple `*` wildcards character to match multi
 
 Package automations create native builds which can be downloaded and run on devices. They have the following customizations:
 
-![Creating a package automation](/docs/assets/img/appflow/ss-automation-create-package.png)
+![Creating a package automation](/docs/v4/assets/img/appflow/ss-automation-create-package.png)
 
 #### Fields
 
@@ -60,7 +60,7 @@ Package automations create native builds which can be downloaded and run on devi
 
 Web automations build the javascript portion of an application and interface with the [Deploy](/docs/appflow/deploy/intro) service to enable live app updates.
 
-![Creating a web automation](/docs/assets/img/appflow/ss-automation-create-web.png)
+![Creating a web automation](/docs/v4/assets/img/appflow/ss-automation-create-web.png)
 
 #### Fields
 

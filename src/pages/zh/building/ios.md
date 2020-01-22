@@ -49,11 +49,11 @@ Before apps can be deployed to iOS simulators and devices, the native project mu
 
 1. **In **Project navigator**, select the project root to open the project editor. Under the **Identity** section, verify that the Package ID that was set matches the Bundle Identifier.**
     
-    ![Xcode Identity Setup](/docs/assets/img/running/ios-xcode-identity-setup.png)
+    ![Xcode Identity Setup](/docs/v4/assets/img/running/ios-xcode-identity-setup.png)
 
 2. **In the same project editor, under the **Signing** section, ensure **Automatically manage signing** is enabled.** Then, select a Development Team. Given a Development Team, Xcode will attempt to automatically prepare provisioning and signing.
     
-    ![Xcode Signing Setup](/docs/assets/img/running/ios-xcode-signing-setup.png)
+    ![Xcode Signing Setup](/docs/v4/assets/img/running/ios-xcode-signing-setup.png)
 
 ## Running with Xcode
 
@@ -78,7 +78,7 @@ In this workflow, Xcode can automatically fix common compilation and signing iss
 
 1. **In Xcode, select a target simulator or device and click the play button.**
     
-    ![Xcode Play Button Area](/docs/assets/img/running/ios-xcode-play-button-area.png)
+    ![Xcode Play Button Area](/docs/v4/assets/img/running/ios-xcode-play-button-area.png)
 
 ## Running with the Ionic CLI
 
@@ -118,7 +118,7 @@ Safari has Web Inspector support for iOS simulators and devices. Open the **Deve
 
 > If the **Develop** menu is hidden, enable it in **Safari** &raquo; **Preferences** &raquo; **Advanced** &raquo; **Show Develop menu in menu bar**.
 
-![Safari Web Inspector](/docs/assets/img/running/ios-safari-web-inspector-timelines.png)
+![Safari Web Inspector](/docs/v4/assets/img/running/ios-safari-web-inspector-timelines.png)
 
 ### Viewing Native Logs
 
@@ -126,4 +126,4 @@ If running with Xcode, native logs can be found in in the Xcode **Console**.
 
 > If the **Console** is hidden, enable it in **View** &raquo; **Debug Area** &raquo; **Activate Console**.
 
-![Xcode Console](/docs/assets/img/running/ios-xcode-console.png)
+![Xcode Console](/docs/v4/assets/img/running/ios-xcode-console.png)

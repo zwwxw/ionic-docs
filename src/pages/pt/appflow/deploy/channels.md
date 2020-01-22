@@ -24,7 +24,7 @@ To create new channels beyond these two, you must have a paid Ionic Appflow memb
 
 Once you have created a Channel, go back to the **Builds** section of your app. On the right side of each Build, you'll see a "Assign to Channel" icon.
 
-![Assign build to a channel](/docs/assets/img/appflow/assign-to-channel.png)
+![Assign build to a channel](/docs/v4/assets/img/appflow/assign-to-channel.png)
 
 Click this to set the Build as active for a Channel.
 

@@ -31,7 +31,7 @@ bitbucket看起来像这样：
 
 最后在 [环境中添加一个密码](/docs/appflow/environments/#custom-environments)，密钥叫 `GIT_CREDINSTL` ，并且使用之前创建的url。
 
-![Git 凭据令牌密钥](/docs/assets/img/appflow/cookbook/git-credentials-token-secret.png)
+![Git 凭据令牌密钥](/docs/v4/assets/img/appflow/cookbook/git-credentials-token-secret.png)
 
 在此，如果你在构建过程中使用这个环境，您可以访问您的仓库，指定 `https`克隆url不需要任何token。 例如，如果你的私人仓库包含 npm 库， `package.json` 将以此方式引用它：
 

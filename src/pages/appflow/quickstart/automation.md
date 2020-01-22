@@ -26,7 +26,7 @@ This way the entire team can easily see when the builds break and track down the
 
 To get started, navigate to the `Automate` tab within the desired app and click the `New Automation` button in the top right.
 
-![New Automation](/docs/assets/img/appflow/ss-new-automation.png)
+![New Automation](/docs/v4/assets/img/appflow/ss-new-automation.png)
 
 Next, fill in the configuration options:
 * <b>Name:</b> The name of the automation.
@@ -34,11 +34,11 @@ Next, fill in the configuration options:
 * <b>Automation Type:</b> Decide whether you'd like to build a [Package build](/docs/appflow/package) (binary) or a [Deploy build](/docs/appflow/deploy) (live update).
 * Add any additional configuration details associated with the automation type
 
-![New Automation Form](/docs/assets/img/appflow/gif-new-automation.gif)
+![New Automation Form](/docs/v4/assets/img/appflow/gif-new-automation.gif)
 
 ## Test the Automation
 Now that the automation is created, any time a developer pushes to the `development` branch for that application, a new Android `Debug` type build will automatically start. Simply push a new commit to your `development` branch to try out the automation.
 
 You can view all the builds associated with a particular automation by navigating to the `Automations` page in the Appflow Dashboard and clicking the automation from the list. 🚀
 
-![Automation Detail](/docs/assets/img/appflow/ss-automation-detail.png)
+![Automation Detail](/docs/v4/assets/img/appflow/ss-automation-detail.png)

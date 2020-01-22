@@ -40,7 +40,7 @@ If this is your first time connecting you'll need to:
 
 * Click the `Connect to Bitbucket Server` button
 
-![Bitbucket Server Connect](/docs/assets/img/appflow/bitbucket-server-connect-app.png)
+![Bitbucket Server Connect](/docs/v4/assets/img/appflow/bitbucket-server-connect-app.png)
 
 Then you can choose the repository to link from the list of available repos.
 

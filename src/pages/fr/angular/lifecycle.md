@@ -11,7 +11,7 @@ contributors:
 
 Ce guide couvre la façon dont le cycle de vie de la page fonctionne dans une application construite avec Ionic et Angular.
 
-![Démo des événements du cycle de vie Ionic](/docs/assets/img/guides/lifecycle/ioniclifecycle.png)
+![Démo des événements du cycle de vie Ionic](/docs/v4/assets/img/guides/lifecycle/ioniclifecycle.png)
 
 ## Evénements du cycle de vie d'Angular
 
@@ -41,7 +41,7 @@ La différence entre `ionViewWillEnter` et `ionViewDidEnter` réside dans le mom
 
 Pour `ionViewWillLeave` et `ionViewDidLeave`, `ionViewWillLeave` est directement exécuté avant le début de la transition de la page actuelle, et `ionViewDidLeave` ne se fait appeler qu'après que la nouvelle page soit transitée avec succès (après les nouvelles pages `ionViewDidEnter` exécutées).
 
-![Démo des événements du cycle de vie avec Ionic](/docs/assets/img/guides/lifecycle/ioniclifecycle.gif)
+![Démo des événements du cycle de vie avec Ionic](/docs/v4/assets/img/guides/lifecycle/ioniclifecycle.gif)
 
 ## Comment Ionic exécute les évènements liés au Cycle de Vie d'une Page
 

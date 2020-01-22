@@ -16,7 +16,7 @@ nextUrl: '/docs/appflow/quickstart/native-config'
 
 To create an environment, simply go to the `Automate > Environments` tab in the sidebar of the Appflow Dashboard and click the `New Environment` button in the top right.
 
-![New Environment](/docs/assets/img/appflow/ss-new-environment.png)
+![New Environment](/docs/v4/assets/img/appflow/ss-new-environment.png)
 
 You'll then see a form that allows you to create two types of environment variables:
 
@@ -25,7 +25,7 @@ You'll then see a form that allows you to create two types of environment variab
 
 Let's create a new Environment called "Development". For this environment, create a variable named `BUILD_ENV` with the value `development`. This variable will allow us to customize the way our builds are configured.
 
-![New Environment Form](/docs/assets/img/appflow/gif-new-environment.gif)
+![New Environment Form](/docs/v4/assets/img/appflow/gif-new-environment.gif)
 
 ## Add the Environment to an Automation
 
@@ -33,7 +33,7 @@ To take full advantage of automating your development environment, you'll want t
 
 In your `Automations` tab, click `Edit` from the `Options` icon on the right of your automation, select the environment from the `Environment` dropdown and click `Save`.
 
-![Add Environment to Automation](/docs/assets/img/appflow/gif-add-environment.gif)
+![Add Environment to Automation](/docs/v4/assets/img/appflow/gif-add-environment.gif)
 
 ## Example: Customizing the Build Script
 

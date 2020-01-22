@@ -102,4 +102,4 @@ $ ionic deploy build --channel="My Custom Channel"
 
 在Appflow的Environments 和Channels页面中查找名称:
 
-![CLI 环境列表](/docs/assets/img/appflow/cli-environments-list.png) ![CLI Channel列表](/docs/assets/img/appflow/cli-channels-list.png)
+![CLI 环境列表](/docs/v4/assets/img/appflow/cli-environments-list.png) ![CLI Channel列表](/docs/v4/assets/img/appflow/cli-channels-list.png)

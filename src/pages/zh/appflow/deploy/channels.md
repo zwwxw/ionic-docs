@@ -24,7 +24,7 @@ Channel指向应用程序的特定部署构建，该构建将与任何配置为�
 
 一旦您创建了一个Channel，回到应用的 **Builds**部分。 在每个Build的正面侧，您将看到一个“Assign to Channel”图标。
 
-![构建Channel](/docs/assets/img/appflow/assign-to-channel.png)
+![构建Channel](/docs/v4/assets/img/appflow/assign-to-channel.png)
 
 点击此处设置 Build为Channel的活动。
 

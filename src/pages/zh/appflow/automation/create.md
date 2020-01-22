@@ -23,7 +23,7 @@ nextUrl: '/docs/appflow/automation/environments'
 
 所有自动化都需要一个名称和git分支来触发。 当代码被推到选定的分支时，自动化将运行。
 
-![选择自动化类型](/docs/assets/img/appflow/ss-automation-create-type.png)
+![选择自动化类型](/docs/v4/assets/img/appflow/ss-automation-create-type.png)
 
 #### 字段
 
@@ -45,7 +45,7 @@ nextUrl: '/docs/appflow/automation/environments'
 
 Package自动化创建可以在设备上下载和运行的本地构建。 他们有下列自定义：
 
-![创建软件包自动化](/docs/assets/img/appflow/ss-automation-create-package.png)
+![创建软件包自动化](/docs/v4/assets/img/appflow/ss-automation-create-package.png)
 
 #### 字段
 
@@ -60,7 +60,7 @@ Package自动化创建可以在设备上下载和运行的本地构建。 他们
 
 Web自动化使用Deploy服务构建应用程序的javascript部分，并与[Deploy](/docs/appflow/deploy/intro)服务进行接口以启用实时应用程序更新。
 
-![创建web自动化](/docs/assets/img/appflow/ss-automation-create-web.png)
+![创建web自动化](/docs/v4/assets/img/appflow/ss-automation-create-web.png)
 
 #### 字段
 

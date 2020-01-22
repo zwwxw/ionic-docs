@@ -21,7 +21,7 @@ nextUrl: '/docs/appflow/package/native-configs'
 <b>例如:</b> <a href="/docs/appflow/package/build-types#app-store">App Store构建</a>需要iOS生产证书和分配配置配置文件，因此必须使用</b>Production</b>类型配置文件。
 </blockquote>
 
-![添加配置文件](/docs/assets/img/appflow/ss-add-profile.png)
+![添加配置文件](/docs/v4/assets/img/appflow/ss-add-profile.png)
 
 您需要选择上传 [生成的证书文件](/docs/appflow/package/credentials)，并输入访问证书所需的任何密码。
 

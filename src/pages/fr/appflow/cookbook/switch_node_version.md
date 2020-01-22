@@ -10,7 +10,7 @@ It is possible to use a different Node version other than the default one (curre
 
 To switch Node version simply add a variable called `OVERRIDE_NODE_VERSION` inside an environment and use such environment in a build.
 
-![Use different Node](/docs/assets/img/appflow/cookbook/switch-node-version.png)
+![Use different Node](/docs/v4/assets/img/appflow/cookbook/switch-node-version.png)
 
 #### Notes
 

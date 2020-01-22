@@ -50,7 +50,7 @@ Capacitor uses Android Studio to build and run apps to simulators and devices.
 
 2. **In Android Studio, click the Run button and then select the target simulator or device.**
 
-![Android Studio Run Button Area](/docs/assets/img/running/android-studio-run-button-area.png)
+![Android Studio Run Button Area](/docs/v4/assets/img/running/android-studio-run-button-area.png)
 
 ## Running with Cordova
 
@@ -74,7 +74,7 @@ Chrome has web developer tool support for Android simulators and devices. Go to 
 
 > Make sure your application is running on the device or simulator, or it will not show up in the list.
 
-![Android Chrome DevTools](/docs/assets/img/running/android-chrome-devtools.png)
+![Android Chrome DevTools](/docs/v4/assets/img/running/android-chrome-devtools.png)
 
 ### Viewing Native Logs
 
@@ -82,7 +82,7 @@ If running with Android Studio, native logs can be found in **Logcat**.
 
 > If the **Logcat** window is hidden, you can enable it in **View** &raquo; **Tool Windows** &raquo; **Logcat**.
 
-![Android Studio Logcat](/docs/assets/img/running/android-studio-logcat.png)
+![Android Studio Logcat](/docs/v4/assets/img/running/android-studio-logcat.png)
 
 You can also access **Logcat** with [ADB](https://developer.android.com/studio/command-line/adb).
 

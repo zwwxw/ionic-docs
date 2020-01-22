@@ -11,7 +11,7 @@ contributors:
 
 本指南涵盖生命周期钩子如何在ionic和angular的应用程序中工作。
 
-![Ionic 生命周期事件演示](/docs/assets/img/guides/lifecycle/ioniclifecycle.png)
+![Ionic 生命周期事件演示](/docs/v4/assets/img/guides/lifecycle/ioniclifecycle.png)
 
 ## Angular的生命周期事件
 
@@ -41,7 +41,7 @@ Ionic兼容由Angular提供的生命周期事件。 使用得最多的两个Angu
 
 对于`ionViewWillLeave` 和 `ionViewDidLeave`, `ionViewWillLeave` 从当前页面开始转变之前直接调用， `ionViewDidLeave` 直到成功过渡到新页面后调用(在新页面 `ionViewDidEnter` 触发之后）。
 
-![Ionic 生命周期事件demo](/docs/assets/img/guides/lifecycle/ioniclifecycle.gif)
+![Ionic 生命周期事件demo](/docs/v4/assets/img/guides/lifecycle/ioniclifecycle.gif)
 
 ## Ionic如何控制页面的生命周期
 

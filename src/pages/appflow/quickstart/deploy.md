@@ -24,9 +24,9 @@ In order to deploy a live update, you will first need to create a [Deploy build]
 
 There are two ways to do this:
 * Click the `Start web build` icon from the `Commits` tab
-![Start Web Build from Commits](/docs/assets/img/appflow/ss-start-web-build-commits.png)
+![Start Web Build from Commits](/docs/v4/assets/img/appflow/ss-start-web-build-commits.png)
 * Click the `New web build` button in the top right from the `Deploy > Builds` tab
-![New Web Build](/docs/assets/img/appflow/ss-new-web-build.png)
+![New Web Build](/docs/v4/assets/img/appflow/ss-new-web-build.png)
 
 You will need to make sure you've selected the correct commit to deploy. If your plan includes [custom environments](/docs/appflow/automation/environments#custom-environments) and you have configured at least one, you can select one from the provided dropdown list.
 Finally, you can also pick a [Channel](/docs/appflow/deploy/channels) to automatically assign the build to once it completes successfully.
@@ -35,14 +35,14 @@ For the purposes of this tutorial, we will leave both options blank.
 Once the build begins you will be able to watch it's
 progress and look at the logs if you encounter errors.
 
-![Running Web Build](/docs/assets/img/appflow/gif-start-web-build.gif)
+![Running Web Build](/docs/v4/assets/img/appflow/gif-start-web-build.gif)
 
 
  ## Web Build Versioning
 
 Once the Web Build completed, it can be restricted to a specific native build number assigned in the Web Build details. A minimum and maximum equivalent build version number are specified, which designates whether or not the update is compatible. After doing this, new native builds that are distributed within an app store do not conflict with the current available update from AppFlow.
 
-![Web build versioning](/docs/assets/img/appflow/web-build-versioning.png)
+![Web build versioning](/docs/v4/assets/img/appflow/web-build-versioning.png)
 
 For more details and a simple use case see [this article](https://ionic.zendesk.com/hc/en-us/articles/360003567694-How-to-restrict-Deploy-updates-by-native-version).
   
@@ -56,7 +56,7 @@ Once you have a successful Deploy build, you can assign it to the same Channel y
 listen to when you installed it by clicking the `Assign to channel` button in the top right of the build detail
 page. You can also click the `Assign to channel` icon on the build in the `Deploy > Builds` tab and select the Channel
 from the dropdown.
-![Assign to Channel](/docs/assets/img/appflow/gif-assign-to-channel.gif)
+![Assign to Channel](/docs/v4/assets/img/appflow/gif-assign-to-channel.gif)
 
 ## Receiving a Live Update on a Device
 

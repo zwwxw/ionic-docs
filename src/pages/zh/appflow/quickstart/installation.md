@@ -12,7 +12,7 @@ nextUrl: '/docs/appflow/quickstart/push'
 
 点击应用流程控制面板中的频道列表中的 "安装说明"，以从仪表板安装 Appflow SDK 插件。
 
-![Install Instructions](/docs/assets/img/appflow/ss-appflow-sdk-install.png)
+![Install Instructions](/docs/v4/assets/img/appflow/ss-appflow-sdk-install.png)
 
 ## Installing the Appflow SDK Manually
 

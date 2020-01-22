@@ -17,7 +17,7 @@ Si no está utilizando una de las integraciones de repositorio de git soportadas
 
 ## Vincula tu repositorio
 
-![Comando enlace Ionic](/docs/assets/img/appflow/ionic-link.gif)
+![Comando enlace Ionic](/docs/v4/assets/img/appflow/ionic-link.gif)
 
 Para vincular su repositorio local, simplemente ejecuta `enlace ionic` en el directorio root de tu proyecto existente y elige `Ionic Appflow` como tu git remoto. Esto te permitirá seleccionar la aplicación de panel a la que quieres enlazar, crea un mando `ionic` en tu configuración local de git, y crear o usar un par de claves SSH existente para la autenticación al enviar cambios a Ionic Appflow.
 

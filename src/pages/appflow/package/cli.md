@@ -125,10 +125,10 @@ Apart from the `--commit` option, all others require the full name setup within 
 
 Look for the name on the Security Profiles, Environments and Native Configs pages in Appflow:
 
-![Security Profiles](/docs/assets/img/appflow/cli-security-profile-list.png)
-![Environments](/docs/assets/img/appflow/cli-environments-list.png)
-![Native Configs](/docs/assets/img/appflow/cli-native-config-list.png)
+![Security Profiles](/docs/v4/assets/img/appflow/cli-security-profile-list.png)
+![Environments](/docs/v4/assets/img/appflow/cli-environments-list.png)
+![Native Configs](/docs/v4/assets/img/appflow/cli-native-config-list.png)
 
 For the Target Platform, use one of the strings identifying the platform in the Applflow Package Build form:
 
-![Target Platform](/docs/assets/img/appflow/cli-target-platform.png)
+![Target Platform](/docs/v4/assets/img/appflow/cli-target-platform.png)

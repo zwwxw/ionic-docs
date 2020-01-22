@@ -168,7 +168,7 @@ aside .Card-header {
 }
 
 aside .Card-header::after {
-  background-image: url("/docs/assets/img/new-tab.svg");
+  background-image: url("/docs/v4/assets/img/new-tab.svg");
   display: inline-block;
   height: 13px;
   width: 13px;

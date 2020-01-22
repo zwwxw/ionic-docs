@@ -40,7 +40,7 @@ nextUrl: '/docs/appflow/automation/webhooks'
 
 除了 [预定义的环境](#predefined-environments)之外，在 [计划中用户访问自动化](/pricing) 将有权限创建自定义环境。 使用自定义环境，很容易创建和管理自定义密钥/值配对 以进一步自定义构建 Ionic Appflow。 常见的用例包括定制您的构建过程，以便构建staging &您的应用程序的QA版本，可以连接到不同的api，或者构建应用程序的不同的标记版本。 要开始使用自定义环境，请打开您希望使用的应用程序，并在侧栏中导航到**automation -> Environment**，然后单击右上角的**New Environment**。 你应该看到类似的内容：
 
-![创建环境表单](/docs/assets/img/appflow/ss-environments-create.png)
+![创建环境表单](/docs/v4/assets/img/appflow/ss-environments-create.png)
 
 可以注意到，有两种不同的环境变量部分可以使用：
 
@@ -51,7 +51,7 @@ nextUrl: '/docs/appflow/automation/webhooks'
 
 环境面板还列出了可用的自定义环境及其配置的键/值对和密钥。
 
-![环境列表](/docs/assets/img/appflow/ss-environments-list.png)
+![环境列表](/docs/v4/assets/img/appflow/ss-environments-list.png)
 
 ## 使用方法
 

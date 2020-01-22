@@ -40,7 +40,7 @@ Las siguientes variables de entorno se proporcionan en cada compilación, a las 
 
 Además de los [ entornos predefinidos ](#predefined-environments), los clientes en los planes [ con acceso a automatizaciones ](/pricing) tendrán acceso para crear entornos personalizados. Con entornos personalizados, es fácil crear y administrar conjuntos personalizados de pares clave/valor para personalizar aún más las compilaciones en Ionic Appflow. Los casos de uso comunes incluyen la personalización de su proceso de compilación & para crear versiones de control de calidad de su aplicación que se conectan a diferentes API o para crear diferentes versiones de su aplicación con etiqueta blanca. Para comenzar con entornos personalizados, abra la aplicación en la que desea trabajar y navegue en la barra lateral para ** Automatizar -> Entornos **, luego haga clic en ** Nuevo entorno ** en la parte superior derecha. Deberá ver algo como esto:
 
-![Crear formulario de entorno](/docs/assets/img/appflow/ss-environments-create.png)
+![Crear formulario de entorno](/docs/v4/assets/img/appflow/ss-environments-create.png)
 
 Como se puede notar, hay dos diferentes conjuntos de secciones de variables de entorno que se pueden utilizar:
 
@@ -51,7 +51,7 @@ La única diferencia es que los secretos están ocultos y nunca se muestran en e
 
 El dashboard de entornos también muestra los entornos personalizados disponibles junto con sus pares clave/valor configurados y claves secretas.
 
-![Vista de lista de entornos](/docs/assets/img/appflow/ss-environments-list.png)
+![Vista de lista de entornos](/docs/v4/assets/img/appflow/ss-environments-list.png)
 
 ## Uso
 

@@ -21,7 +21,7 @@ Click the `Add Profile` button to create a new Profile.Both iOS and Android cert
 <b>For example:</b> <a href="/docs/appflow/package/build-types#app-store">App Store builds</a> require an iOS production certificate & distribution provisioning profile and therefore must use a </b>Production</b> type profile.
 </blockquote>
 
-![Add Profile](/docs/assets/img/appflow/ss-add-profile.png)
+![Add Profile](/docs/v4/assets/img/appflow/ss-add-profile.png)
 
 You'll need to choose the [certificate files you generated](/docs/appflow/package/credentials) and upload them as well as put in any passwords needed to access the credentials.
 

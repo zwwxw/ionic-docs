@@ -27,4 +27,4 @@ Deploy Channels so that you can install all the environments on a single device 
 
 To create one go to the `Package > Native Configs` tab in the sidebar and click `New native config`.
 
-![Native configs](/docs/assets/img/appflow/ss-native-configs.png)
+![Native configs](/docs/v4/assets/img/appflow/ss-native-configs.png)

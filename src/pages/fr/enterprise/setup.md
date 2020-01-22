@@ -12,7 +12,7 @@ Click `Assign to App`, then `New App`. Enter a name, then click `Create App`.
 
 Hover over a Native Plugin Key, then click to copy it to your clipboard:
 
-![test](/docs/assets/img/native/native-setup-keys.png)
+![test](/docs/v4/assets/img/native/native-setup-keys.png)
 
 Next, open up a terminal on your computer.
 

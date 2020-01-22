@@ -11,11 +11,11 @@ nextUrl: '/docs/angular/lifecycle'
 
 Ionic有九种定义成CSS变量的默认色调，可以用于改变其UI组件的颜色。
 
-![v4-theming-defaults](/docs/assets/img/guides/first-app-v4/theming-defaults.png)
+![v4-theming-defaults](/docs/v4/assets/img/guides/first-app-v4/theming-defaults.png)
 
 你可以通过base（基础）、contrast（对比度）、shade（阴影）和tint（色调）属性来进一步定义每种颜色。 这使得样式管理变得更加灵活。
 
-![v4-theming-properties](/docs/assets/img/guides/first-app-v4/theming-properties.png)
+![v4-theming-properties](/docs/v4/assets/img/guides/first-app-v4/theming-properties.png)
 
 你可以在 `src/theme/variables.scss`里面找到这些样式定义。
 
@@ -38,7 +38,7 @@ Ionic的 [颜色生成器](/docs/theming/color-generator)。是为应用程序�
 
 等等，还没完呢！ Ionic会自动地提供基于应用所运行的设备平台特定的样式，给用户以自然亲切的观感。
 
-![ios和android差异对照](/docs/assets/img/guides/first-app-v3/ion-lab-comparison.png)
+![ios和android差异对照](/docs/v4/assets/img/guides/first-app-v3/ion-lab-comparison.png)
 
 这一点在应用中的页眉和图标设计方式中表现得尤其突出。
 
@@ -56,7 +56,7 @@ imports: [
 
 现在，iOS版的应用就拥有Material Design皮肤了。
 
-![ios和android差异对照](/docs/assets/img/guides/first-app-v3/ion-lab-md-styling.png)
+![ios和android差异对照](/docs/v4/assets/img/guides/first-app-v3/ion-lab-md-styling.png)
 
 使用CSS变量和平台指定的样式来创建华丽无比的Ionic应用是非常容易实现的。 现在你已经有了开始使用Ionic所需的一切。
 

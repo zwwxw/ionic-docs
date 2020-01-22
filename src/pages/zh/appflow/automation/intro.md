@@ -17,6 +17,6 @@ Ionic Appflow的自动化特性允许您在需要时生成构建。 带有安全
 
 ##### 有用的链接
 
-<docs-cards class="max-measure"> <docs-card header="Create an Automation" href="/docs/appflow/quickstart/automation" icon="/docs/assets/icons/guide-quickstart-icon.png"> 
+<docs-cards class="max-measure"> <docs-card header="Create an Automation" href="/docs/appflow/quickstart/automation" icon="/docs/v4/assets/icons/guide-quickstart-icon.png"> 
 
 使用我们的快速入门指南创建您的第一个Android开发二进制自动化!</docs-card> </docs-cards>

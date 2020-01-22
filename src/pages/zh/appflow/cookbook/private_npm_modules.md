@@ -24,7 +24,7 @@ nextUrl: '/docs/appflow/cookbook/switch_node_version'
 
 在Appflow环境中配置一个`NPM_TOKEN`密钥，使用生成的令牌作为值:
 
-![NPM 令牌密钥](/docs/assets/img/appflow/cookbook/npm-token-secret.png)
+![NPM 令牌密钥](/docs/v4/assets/img/appflow/cookbook/npm-token-secret.png)
 
 在项目目录根目录中检查`.npmrc`文件如下行：
 

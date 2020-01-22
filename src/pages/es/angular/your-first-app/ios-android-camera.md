@@ -38,11 +38,11 @@ Quedan una serie de pasos para configurar las herramientas nativas de [iOS](/doc
 
 Ionic DevApp es una aplicación gratuita que permite de manera fácil correr tus aplicaciones Ionic directamente en tus dispositivos iOS o Android. Descárgala de una de las app stores, y abrela en tu dispositivo:
 
-<a href="https://itunes.apple.com/us/app/ionic-devapp/id1233447133?ls=1&mt=8"><img src="/docs/assets/img/guides/first-app-v3/appstore.png"></a>
+<a href="https://itunes.apple.com/us/app/ionic-devapp/id1233447133?ls=1&mt=8"><img src="/docs/v4/assets/img/guides/first-app-v3/appstore.png"></a>
 
 <p></p>
 
-<a href="https://play.google.com/store/apps/details?id=io.ionic.devapp&hl=en"><img src="/docs/assets/img/guides/first-app-v3/playstore.png"></a>
+<a href="https://play.google.com/store/apps/details?id=io.ionic.devapp&hl=en"><img src="/docs/v4/assets/img/guides/first-app-v3/playstore.png"></a>
 
 Luego, inicia sesión en tu cuenta Ionic.
 

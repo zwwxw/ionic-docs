@@ -6,7 +6,7 @@ tableOfContents: false
 Accelerate your app development with powerful solutions to common enterprise use cases - all built and supported by the Ionic team. 
 
 <h2>
-  <img src="/docs/assets/icons/logo-auth-connect.png" class="native-solutions-img" />
+  <img src="/docs/v4/assets/icons/logo-auth-connect.png" class="native-solutions-img" />
   Single Sign-On
 </h2>
 
@@ -15,7 +15,7 @@ Accelerate your app development with powerful solutions to common enterprise use
 When used with Ionic Identity Vault, it provides a complete security solution for authentication and storage of logged-in credentials. Auth Connect also allows your app to support multiple authentication providers. Should you need to change providers, easily switch between them without having to develop a new solution.
 
 <h2>
-  <img src="/docs/assets/icons/logo-identity-vault.png" class="native-solutions-img" />
+  <img src="/docs/v4/assets/icons/logo-identity-vault.png" class="native-solutions-img" />
   Biometric Authentication
 </h2>
 
@@ -24,7 +24,7 @@ When used with Ionic Identity Vault, it provides a complete security solution fo
 Identity Vault manages secure user identity and session tokens, ensuring sensitive tokens are encrypted at rest, stored only in secure locations on the device, and unlocked only with biometric identity (TouchID/FaceID).
 
 <h2>
-  <img src="/docs/assets/icons/logo-offline-storage.png" class="native-solutions-img" />
+  <img src="/docs/v4/assets/icons/logo-offline-storage.png" class="native-solutions-img" />
   Secure Offline Storage
 </h2>
 

@@ -17,7 +17,7 @@ Code mode features include:
 * Visualized compile errors inside the editor
 
 <figure>
-  <img alt="Code Mode" src="/docs/assets/img/studio/ss-code.png" />
+  <img alt="Code Mode" src="/docs/v4/assets/img/studio/ss-code.png" />
 </figure>
 
 ## File Tree Panel
@@ -31,7 +31,7 @@ Right click on a file or directory to rename it, delete it, etc. Drag and drop t
 App files can be searched using the search bar at the top of the file tree panel.
 
 <figure>
-  <img alt="Search Bar" src="/docs/assets/img/studio/ss-search-bar.png" />
+  <img alt="Search Bar" src="/docs/v4/assets/img/studio/ss-search-bar.png" />
 </figure>
 
 ### Search and Replace
@@ -39,7 +39,7 @@ App files can be searched using the search bar at the top of the file tree panel
 Search and replace functionality is available by using the dropdown arrow when searching.
 
 <figure>
-  <img alt="Search and Replace" src="/docs/assets/img/studio/ss-search-and-replace.png" />
+  <img alt="Search and Replace" src="/docs/v4/assets/img/studio/ss-search-and-replace.png" />
 </figure>
 
 ## Editor

@@ -24,7 +24,7 @@ $ ionic cordova plugin add cordova-plugin-ionic@latest --save
 
 There are two unique values to provide: your app id and channel name. Sign into Ionic Pro, then find the App Id on your app’s dashboard:
 
-![app id location](/docs/assets/img/guides/first-app-v3/app-id-location.png)
+![app id location](/docs/v4/assets/img/guides/first-app-v3/app-id-location.png)
 
 And we’ll just use “Master” as the channel name. Putting this together looks like:
 
@@ -127,7 +127,7 @@ $ git push ionic master
 
 Log into the [Ionic Pro dashboard](https://dashboard.ionicframework.com) and navigate to Deploy -> Builds. You’ll see this newest commit begin to build immediately. Since we assigned the Ionic Pro plugin to the Master branch (the one we always Git Push to), the Channel label will also point to this commit, effectively auto-deploying this change to all app users:
 
-![deploy channel](/docs/assets/img/guides/first-app-v3/deploy-channel.png)
+![deploy channel](/docs/v4/assets/img/guides/first-app-v3/deploy-channel.png)
 
 A Channel points to a specific JavaScript Build or Snapshot of your app that will be shared with devices listening to that channel for updates. You can change which Build a Channel points to whenever you’d like. 
 
@@ -139,7 +139,7 @@ What if you deploy a change, then realize that there is a bug? Or perhaps you’
 
 On the Deploy Builds page, click the “Assign to Channel” button on the previous commit, then click “Deploy.”  App users will be reverted to the previous version, and our “Photo Gallery” name has been restored.
 
-![deploy channel](/docs/assets/img/guides/first-app-v3/deploy-revertChange.png)
+![deploy channel](/docs/v4/assets/img/guides/first-app-v3/deploy-revertChange.png)
 
 This was just a taste of what you can do with Ionic Deploy! You can also set up multiple deployment channels to send targeted updates to specific groups of users. Use it to run A/B tests, or target the distribution of updates by audience, geography, or test group.
 

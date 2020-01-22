@@ -37,11 +37,11 @@ Running an app on an iOS device requires a provisioning profile. If a provisioni
 
 3. **In **Project navigator**, select the project root to open the project editor. Under the **Identity** section, verify that the Package ID that was set matches the Bundle Identifier.**
     
-    ![Xcode Identity Setup](/docs/assets/img/running/ios-xcode-identity-setup.png)
+    ![Xcode Identity Setup](/docs/v4/assets/img/running/ios-xcode-identity-setup.png)
 
 4. **In the same project editor, under the **Signing** section, ensure **Automatically manage signing** is enabled.** Then, select a Development Team. Given a Development Team, Xcode will attempt to automatically prepare provisioning and signing.
     
-    ![Xcode Signing Setup](/docs/assets/img/running/ios-xcode-signing-setup.png)
+    ![Xcode Signing Setup](/docs/v4/assets/img/running/ios-xcode-signing-setup.png)
 
 ## Xcode build error 65
 

@@ -12,7 +12,7 @@ In order to take advantage of some of the best Appflow features, like deploying 
 
 To install the Appflow SDK plugin from the Dashboard, follow the instructions provided by clicking "Install Instructions" on the Channels list in the Appflow Dashboard.
 
-![Install Instructions](/docs/assets/img/appflow/ss-appflow-sdk-install.png)
+![Install Instructions](/docs/v4/assets/img/appflow/ss-appflow-sdk-install.png)
 
 ## Installing the Appflow SDK Manually
 

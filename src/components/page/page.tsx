@@ -108,7 +108,7 @@ export class DocsPage {
 
     // Sharing Image
     updateMeta(metaEls.image, () => meta.image ||
-      'https://ionicframework.com/docs/assets/img/meta/open-graph.png');
+      'https://ionicframework.com/docs/v4/assets/img/meta/open-graph.png');
   }
 
   hostData() {

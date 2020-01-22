@@ -38,11 +38,11 @@ $ ionic cordova platform add android
 
 Ionic DevApp 是一个免费的应用程序，可以轻松地在您的iOS或 Android 设备上直接运行您的 Ionic 应用。 从应用商店中下载，然后在您的设备上打开它：
 
-<a href="https://itunes.apple.com/us/app/ionic-devapp/id1233447133?ls=1&mt=8"><img src="/docs/assets/img/guides/first-app-v3/appstore.png"></a>
+<a href="https://itunes.apple.com/us/app/ionic-devapp/id1233447133?ls=1&mt=8"><img src="/docs/v4/assets/img/guides/first-app-v3/appstore.png"></a>
 
 <p></p>
 
-<a href="https://play.google.com/store/apps/details?id=io.ionic.devapp&hl=en"><img src="/docs/assets/img/guides/first-app-v3/playstore.png"></a>
+<a href="https://play.google.com/store/apps/details?id=io.ionic.devapp&hl=en"><img src="/docs/v4/assets/img/guides/first-app-v3/playstore.png"></a>
 
 下一步，登录您的 Ionic 帐户。
 

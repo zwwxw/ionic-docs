@@ -35,7 +35,7 @@ nextUrl: '/文档/Appflow/快速开始/安装'
 
 * 点击 `连接到 Bitbucket 服务器` 按钮
 
-![Bitbucket 服务器连接](/docs/assets/img/appflow/bitbucket-server-connect-app.png)
+![Bitbucket 服务器连接](/docs/v4/assets/img/appflow/bitbucket-server-connect-app.png)
 
 然后您可以从可用仓库列表中选择要链接的存储库。
 

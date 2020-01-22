@@ -80,11 +80,11 @@ $ ionic serve
 
 Tap on the Gallery tab, then the camera button. A runtime error should occur. In a browser, head over to the [Ionic Pro dashboard](https://dashboard.ionicframework.com), then Monitor -> Monitoring. After a few minutes, the error should appear:
 
-![event monitoring](/docs/assets/img/guides/first-app-v3/monitoring-event.png)
+![event monitoring](/docs/v4/assets/img/guides/first-app-v3/monitoring-event.png)
 
 Clicking on the event gives us lots of details surrounding what happened, such as a full stack trace. In this instance, we see that the error occurred three times on Mac OS X in the Chrome web browser.
 
-![event details](/docs/assets/img/guides/first-app-v3/monitoring-details.png)
+![event details](/docs/v4/assets/img/guides/first-app-v3/monitoring-details.png)
 
 Given the proliferation of mobile devices and operating systems these days, this is immensely powerful. Armed with these details, we can hone in on the problem and fix it quickly. 
 

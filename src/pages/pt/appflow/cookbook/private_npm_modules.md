@@ -24,7 +24,7 @@ Get an authentication token using the npm CLI:
 
 Configure an `NPM_TOKEN` secret in your Appflow environment using the generated token as value:
 
-![NPM token secret](/docs/assets/img/appflow/cookbook/npm-token-secret.png)
+![NPM token secret](/docs/v4/assets/img/appflow/cookbook/npm-token-secret.png)
 
 Check in a `.npmrc` file in the root of your project directory with the following line:
 

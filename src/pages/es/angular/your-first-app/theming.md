@@ -11,11 +11,11 @@ Anteriormente, convertimos nuestra aplicación de cámara de único uso en una g
 
 Ionic tiene nueve colores por defecto, definidos como variables CSS, que pueden ser usados para cambiar el color de sus componentes de la interfaz de usuario:
 
-![v4-theming-defaults](/docs/assets/img/guides/first-app-v4/theming-defaults.png)
+![v4-theming-defaults](/docs/v4/assets/img/guides/first-app-v4/theming-defaults.png)
 
 Puedes personalizar cada color más adelante proporcionando una base, contraste, sombra y propiedades de capa. Estos proporcionan un control flexible sobre tus estilos:
 
-![v4-theming-properties](/docs/assets/img/guides/first-app-v4/theming-properties.png)
+![v4-theming-properties](/docs/v4/assets/img/guides/first-app-v4/theming-properties.png)
 
 Puede encontrar estos colores definidos en `src/theme/variables.scss`.
 
@@ -38,7 +38,7 @@ La forma más fácil y poderosa de crear paletas de color personalizadas para la
 
 Pero espere, ¡hay más! Ionic proporciona automáticamente estilos específicos de la plataforma basados en el dispositivo en el que la aplicación se está ejecutando, dándole ese aspecto nativo y sienta que sus usuarios están acostumbrados a usar:
 
-![ios and android comparison](/docs/assets/img/guides/first-app-v3/ion-lab-comparison.png)
+![ios and android comparison](/docs/v4/assets/img/guides/first-app-v3/ion-lab-comparison.png)
 
 En nuestra aplicación, esto es claramente visible en cómo la cabecera y los iconos están estilizados.
 
@@ -56,7 +56,7 @@ imports: [
 
 ¡Ahora, la versión de iOS de nuestra aplicación tiene una skin Material Design!
 
-![ios and android comparison](/docs/assets/img/guides/first-app-v3/ion-lab-md-styling.png)
+![ios and android comparison](/docs/v4/assets/img/guides/first-app-v3/ion-lab-md-styling.png)
 
 Crear magníficas aplicaciones Ionic es fácil con variables CSS y estilo específico de la plataforma. Ahora tienes todo lo que necesitas para empezar con Ionic.
 

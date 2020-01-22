@@ -39,11 +39,11 @@ Android Studio 也用于 [创建Android 虚拟设备](/docs/installation/android
 
 安装后，打开 Android Studio。 IDE 应该检测到 Android SDK 需要安装。 在 **SDK 组件设置** 界面，进行SDK的安装。 记下 **Android SDK 的位置**。
 
-![Android Studio SDK Setup](/docs/assets/img/installation/android-studio-sdk-setup.png)
+![Android Studio SDK Setup](/docs/v4/assets/img/installation/android-studio-sdk-setup.png)
 
 默认情况下，安装了最新的稳定版 Android SDK，其中包括了对应版本所需的一系列软件包。
 
-> 要安装SDK系统镜像和其他次要的SDK包，您可能需要确保勾选了在 SDK 管理器底部的 **显示软件包详细信息** 选项框。 ![Android Studio SDK Manager](/docs/assets/img/installation/android-studio-sdk.png)
+> 要安装SDK系统镜像和其他次要的SDK包，您可能需要确保勾选了在 SDK 管理器底部的 **显示软件包详细信息** 选项框。 ![Android Studio SDK Manager](/docs/v4/assets/img/installation/android-studio-sdk.png)
 
 For future reference, the Android SDK can be managed with Android Studio in the **Configure** &raquo; **SDK Manager** menu of the Android Studio welcome screen or **Tools** &raquo; **SDK Manager** inside Android projects.
 
@@ -73,14 +73,14 @@ Android Virtual Devices (AVDs) are blueprints that the Android emulator uses to 
 
 AVDs are managed with the AVD Manager. In the Android Studio welcome screen, click **Configure** &raquo; **AVD Manager**. The AVD Manager can also be opened inside Android projects in the **Tools** &raquo; **AVD Manager** menu.
 
-![AVD Setup](/docs/assets/img/installation/android-studio-avd-setup.png)
+![AVD Setup](/docs/v4/assets/img/installation/android-studio-avd-setup.png)
 
 Click **Create Virtual Device** and select a suitable device definition. If unsure, choose **Pixel 2**. Then, select a suitable system image. If unsure, choose **Pie** (API 28) with Google Play services. See <a href="https://en.wikipedia.org/wiki/Android_version_history" target="_blank">Android version history</a> for information on Android versions.
 
 Once the AVD is created, launch the AVD into the Android emulator. Keeping the emulator running is the best way to ensure detection while developing Ionic apps for Android.
 
 <figure class="device">
-  <img alt="Android Emulator Booting" src="/docs/assets/img/installation/android-emulator-booting.png" />
+  <img alt="Android Emulator Booting" src="/docs/v4/assets/img/installation/android-emulator-booting.png" />
 </figure>
 
 ### Set up an Android Device

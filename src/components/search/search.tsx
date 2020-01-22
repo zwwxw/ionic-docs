@@ -1,4 +1,3 @@
-import 'ionicons';
 import { Book, Close, ForwardArrow, Search } from '../../icons';
 
 import {

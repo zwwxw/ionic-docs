@@ -32,7 +32,7 @@ Create an Ionic app using one of the pre-made app templates, or a blank one to s
 $ ionic start myApp tabs
 ```
 
-![start app thumbnails](/docs/assets/img/installation/start-app-thumbnails.png)
+![start app thumbnails](/docs/v4/assets/img/installation/start-app-thumbnails.png)
 
 To learn more about starting Ionic apps, see the [Starting Guide](/docs/building/starting).
 

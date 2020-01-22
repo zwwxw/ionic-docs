@@ -15,7 +15,7 @@ your app with updates that you've pushed to channels.
 To install the Appflow SDK plugin from the Dashboard, follow the instructions provided by clicking "Install Instructions"
 on the Channels list in the Appflow Dashboard.
 
-![Install Instructions](/docs/assets/img/appflow/ss-appflow-sdk-install.png)
+![Install Instructions](/docs/v4/assets/img/appflow/ss-appflow-sdk-install.png)
 
 ## Installing the Appflow SDK Manually
 To install the plugin manually, run the following command in the root directory of your Ionic app, making sure to substitute the correct values for your app:

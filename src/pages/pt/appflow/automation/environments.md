@@ -40,7 +40,7 @@ The following environment variables are provided in every build, which can be ac
 
 In addition to the [predefined environments](#predefined-environments), customers on the [plans with access to automations](/pricing) will have access to create custom environments. With custom environments it's easy to create and manage custom sets of key/value pairs to further customize builds on Ionic Appflow. Common use cases include customizing your build process in order to build staging & QA versions of your app that connect to different APIs or to build different white labeled versions of your application. To get started with custom environments, open the app you wish to work on and navigate in the sidebar to **Automate -> Environments**, then click **New Environment** on the top right. You should see a form like this:
 
-![Create Environment Form](/docs/assets/img/appflow/ss-environments-create.png)
+![Create Environment Form](/docs/v4/assets/img/appflow/ss-environments-create.png)
 
 As can be noticed, there are 2 different sets of environment variables sections that can be utilized:
 
@@ -51,7 +51,7 @@ The only difference is that the secrets are hidden and never shown in the dashbo
 
 The environments dashboard also lists available custom environments along with their configured key/value pairs and secrets keys.
 
-![Environments List View](/docs/assets/img/appflow/ss-environments-list.png)
+![Environments List View](/docs/v4/assets/img/appflow/ss-environments-list.png)
 
 ## Usage
 

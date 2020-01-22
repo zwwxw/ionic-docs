@@ -7,7 +7,7 @@ nextUrl: '/docs/developer-resources/guides/first-app-v3/ios-android-camera'
 
 O ótimo do Ionic é que com uma base de código, você pode criar para qualquer plataforma usando ferramentas web e linguagens familiares. Acompanhe enquanto criamos uma Galeria de Fotos funcional. Aqui está o antes e depois:
 
-![Before and after going through this tutorial](/docs/assets/img/guides/first-app-v3/gallery-combined.png)
+![Before and after going through this tutorial](/docs/v4/assets/img/guides/first-app-v3/gallery-combined.png)
 
 É fácil começar. O código de referência para esse guia pode ser [encontrado no GitHub](https://github.com/ionic-team/photo-gallery-tutorial-ionic3/).
 
@@ -81,7 +81,7 @@ E voilà! Seu aplicativo Iônico agora está rodando em um navegador web. Most o
 
 Há três abas: "Casa", "Sobre" e "Contato". Clique na guia Sobre a página. É um canvas em branco, como o ponto perfeito para adicionar a funcionalidade da câmera. Vamos começar a transformar a página Sobre em uma Galeria de Fotos. Iônico recursos LiveReload, então quando você fizer alterações e salvá-las, o aplicativo é atualizado imediatamente!
 
-![Before and after going through this tutorial](/docs/assets/img/guides/first-app-v3/email-photogallery.gif)
+![Before and after going through this tutorial](/docs/v4/assets/img/guides/first-app-v3/email-photogallery.gif)
 
 Open the photo-gallery app folder in your favorite code editor of choice, then navigate to `/src/pages/about/about.html`. We see:
 

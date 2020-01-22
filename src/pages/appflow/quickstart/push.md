@@ -35,4 +35,4 @@ If you are using Ionic as your git remote, you'll need to push to your commit to
 
 Once you've done a `git push`, you should see your commit available in the `Commits` tab of the Dashboard.
 
-![Commits List](/docs/assets/img/appflow/ss-commit-list.png)
+![Commits List](/docs/v4/assets/img/appflow/ss-commit-list.png)

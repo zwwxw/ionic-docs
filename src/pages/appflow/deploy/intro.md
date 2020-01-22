@@ -14,15 +14,15 @@ bugs and ship new features.
 ##### Helpful links
 
 <docs-cards>
-  <docs-card header="Deploy a Live Update" href="/docs/appflow/quickstart/deploy" icon="/docs/assets/icons/guide-quickstart-icon.png">
+  <docs-card header="Deploy a Live Update" href="/docs/appflow/quickstart/deploy" icon="/docs/v4/assets/icons/guide-quickstart-icon.png">
     <p>Install and configure the Appflow SDK and quickly ship your first live update!</p>
   </docs-card>
 
-  <docs-card header="Deploy Builds FAQ" href="https://ionic.zendesk.com/hc/en-us/categories/360000410474-Deploy-Builds-Git-" icon="/docs/assets/icons/guide-faq-icon.png">
+  <docs-card header="Deploy Builds FAQ" href="https://ionic.zendesk.com/hc/en-us/categories/360000410474-Deploy-Builds-Git-" icon="/docs/v4/assets/icons/guide-faq-icon.png">
     <p>Find answers to common questions about deploy.</p>
   </docs-card>
 
-  <docs-card header="Deploy FAQ" href="https://ionic.zendesk.com/hc/en-us/categories/360000409113-Deploy" icon="/docs/assets/icons/guide-faq-icon.png">
+  <docs-card header="Deploy FAQ" href="https://ionic.zendesk.com/hc/en-us/categories/360000409113-Deploy" icon="/docs/v4/assets/icons/guide-faq-icon.png">
     <p>Find answers to common questions about deploy.</p>
   </docs-card>
 </docs-cards>
