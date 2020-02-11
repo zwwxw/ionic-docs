@@ -23,6 +23,7 @@ const start = () => {
   app.use(helmet());
 
   app.get('/', (_, res) => res.redirect(301, '/docs/v4/components/'));
+  app.get('docs/v4/', (_, res) => res.redirect(301, '/docs/v4/components/'));
 
   app.use((req, res, next) => {
     const pathname = path.join(parseurl(req).pathname, 'index.html');
@@ -38,7 +39,7 @@ const start = () => {
 
   app.use(Sentry.Handlers.errorHandler());
   app.use((_, res) => {
-    res.status(404).sendFile(`${__dirname}/www/docs/index.html`);
+    res.status(404).sendFile(`${__dirname}/www/docs/v4/index.html`);
   });
 
   const listener = app.listen(process.env.PORT || 3030, () => {
