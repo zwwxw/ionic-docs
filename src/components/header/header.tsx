@@ -37,14 +37,14 @@ export class DocsHeader {
       <docs-dropdown label={section}>
         <section>
           <a href="https://ionicframework.com/docs/">Framework v5{section === 'Framework v5' ? <Checkmark/> : null}</a>
-          <stencil-route-link url="/docs/v4/">Framework v4{section === 'Framework v4' ? <Checkmark/> : null}</stencil-route-link>
           <a href="https://ionicframework.com/docs/appflow">Appflow {section === 'Appflow' ? <Checkmark/> : null}</a>
+          <a href="https://capacitor.ionicframework.com">Capacitor</a>
           <a href="https://ionicframework.com/docs/studio">Studio {section === 'Studio' ? <Checkmark/> : null}</a>
         </section>
         {section === 'Framework v4' ? <section>
+          <stencil-route-link url="/docs/v4/components">Framework v4{section === 'Framework v4' ? <Checkmark/> : null}</stencil-route-link>
           <a href="https://ionicframework.com/docs/v3">Framework v3</a>
           <a href="https://stenciljs.com">Stencil</a>
-          <a href="https://capacitor.ionicframework.com">Capacitor</a>
         </section> : null}
       </docs-dropdown>,
       section === 'Framework v4' ? <div class="SectionNav-tabs">
@@ -90,7 +90,6 @@ export class DocsHeader {
               <section>
                 <a href="https://blog.ionicframework.com/" target="_blank">Blog</a>
                 <a href="https://twitter.com/ionicframework" target="_blank">Twitter</a>
-                <a href="https://shop.ionicframework.com/" target="_blank">Swag</a>
               </section>
             </docs-dropdown>
             <docs-dropdown label={getString('header-support')} align="right">
