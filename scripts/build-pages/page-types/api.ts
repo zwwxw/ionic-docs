@@ -52,7 +52,7 @@ const getDemoUrl = async (component) => {
   if (hasDemo) {
     return {
       demoUrl: `/docs/v4/demos/${demoPath}`,
-      demoSourceUrl: `https://github.com/ionic-team/ionic-docs/tree/master/src/demos/${demoPath}`
+      demoSourceUrl: `https://github.com/ionic-team/ionic-docs/tree/v4/src/demos/${demoPath}`
     };
   }
 };
