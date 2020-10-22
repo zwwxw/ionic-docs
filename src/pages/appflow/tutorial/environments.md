@@ -2,8 +2,8 @@
 title: 'Environments'
 previousText: 'Native Configs'
 previousUrl: '/docs/appflow/tutorial/native-configs'
-nextText: 'Explore more from Appflow'
-nextUrl: '/docs/appflow/'
+nextText: 'Testing & QA'
+nextUrl: '/docs/appflow/tutorial/dtas'
 tableOfContents: true
 ---
 
@@ -58,5 +58,3 @@ Commit the changes made to your `package.json` file and trigger a new build with
 
 * You can also add the same environment in your automations and Native configurations as well to further enhance your CI/CD capabilities.
 * You can also try replacing the build script with your own bash script that triggers builds based on pre-defined environments. [See details here](https://ionicframework.com/docs/appflow/automation/environments#usage).
-
-Congrats on completing the Exploring Appflow tutorial! You can explore the rest of Appflow's automation options [here](/docs/appflow).

@@ -14,6 +14,7 @@ const items = {
     'menu-appflow-tutorial-live-updates': '/docs/appflow/tutorial/live_updates',
     'menu-appflow-tutorial-automations': '/docs/appflow/tutorial/automations',
     'menu-appflow-tutorial-native-configs': '/docs/appflow/tutorial/native-configs',
-    'menu-appflow-tutorial-environments': '/docs/appflow/tutorial/environments'
+    'menu-appflow-tutorial-environments': '/docs/appflow/tutorial/environments',
+    'menu-appflow-tutorial-deploy-to-appstore': '/docs/appflow/tutorial/dtas'
   }
 };
