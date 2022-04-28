@@ -53,7 +53,15 @@ By default, select uses [ion-alert](alert.md) to open up the overlay of options 
 
 ### Action Sheet
 
+import ActionSheetExample from '@site/static/usage/select/interfaces/action-sheet/index.md';
+
+<ActionSheetExample />
+
 ### Popover
+
+import PopoverExample from '@site/static/usage/select/interfaces/popover/index.md';
+
+<PopoverExample />
 
 ## Multiple Selection
 
@@ -78,6 +86,18 @@ import RespondingToInteractionExample from '@site/static/usage/select/basic/resp
 When using objects for select values, it is possible for the identities of these objects to change if they are coming from a server or database, while the selected value's identity remains the same. For example, this can occur when an existing record with the desired object value is loaded into the select, but the newly retrieved select options now have different identities. This will result in the select appearing to have no value at all, even though the original selection in still intact.
 
 By default, the select uses object equality (`===`) to determine if an option is selected. This can be overridden by providing a property name or a function to the `compareWith` property.
+
+### Using compareWith
+
+import UsingCompareWithExample from '@site/static/usage/select/objects-as-values/using-comparewith/index.md';
+
+<UsingCompareWithExample />
+
+### Object Values and Multiple Selection
+
+import ObjectValuesAndMultipleSelectionExample from '@site/static/usage/select/objects-as-values/multiple-selection/index.md';
+
+<ObjectValuesAndMultipleSelectionExample />
 
 ## Select Buttons
 

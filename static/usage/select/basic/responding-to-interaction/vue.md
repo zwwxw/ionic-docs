@@ -10,7 +10,7 @@
     <ion-select-option>Oranges</ion-select-option>
     <ion-select-option>Bananas</ion-select-option>
   </ion-select>
-  <div id="log">
+  <div id="log" class="ion-padding">
     <p v-for="log in logs">{{ log }}</p>
     <p>Events will log above</p>
   </div>

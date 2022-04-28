@@ -6,7 +6,7 @@ import vue from './vue.md';
 import angular from './angular.md';
 
 <Playground
-  size="medium"
+  size="300px"
   code={{ javascript, react, vue, angular }}
-  src="usage/select/interfaces/action-sheet/demo.html"
+  src="usage/select/interfaces/popover/demo.html"
 />

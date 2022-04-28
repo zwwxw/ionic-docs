@@ -21,7 +21,7 @@ function Example() {
         <IonSelectOption>Oranges</IonSelectOption>
         <IonSelectOption>Bananas</IonSelectOption>
       </IonSelect>
-      <div id="log">
+      <div id="log" className="ion-padding">
         {logs.map((log) => <p>{log}</p>)}
         <p>Events will log above</p>
       </div>

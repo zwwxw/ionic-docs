@@ -11,5 +11,10 @@ export class AppComponent {
   pushLog(msg) {
     this.logs.unshift(msg);
   }
+
+  handleChange(e) {
+    this.pushLog('ionChange fired with value: ' + e.detail.value);
+  }
 }
+
 ```
