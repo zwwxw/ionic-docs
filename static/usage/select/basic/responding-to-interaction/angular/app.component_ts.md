@@ -1,3 +1,4 @@
+```ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   logs: string[] = [];
+
+  pushLog(msg) {
+    this.logs.unshift(msg);
+  }
 }
+```

@@ -1,5 +1,10 @@
 ```html
-<ion-select placeholder="Select fruit">
+<ion-select
+  placeholder="Select fruit"
+  (ionChange)="pushLog('ionChange fired with value: ' + $event.detail.value)"
+  (ionCancel)="pushLog('ionCancel fired')"
+  (ionDismiss)="pushLog('ionDismiss fired')"
+>
   <ion-select-option>Apples</ion-select-option>
   <ion-select-option>Oranges</ion-select-option>
   <ion-select-option>Bananas</ion-select-option>
