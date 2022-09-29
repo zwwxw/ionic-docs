@@ -63,6 +63,9 @@ interface UsageTargetOptions {
   files: {
     [key: string]: MdxContent;
   };
+  assets?: {
+    [key: string]: any;
+  };
   angularModuleOptions?: {
     /**
      * The list of import declarations to add to the `AppModule`.
@@ -266,6 +269,13 @@ export default function Playground({
             .outerText,
         }))
         .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+      if (codeUsageTarget.assets) {
+        Object.keys(codeUsageTarget.assets).map((fileName) => {
+          const fileContents = codeUsageTarget.assets[fileName];
+          editorOptions.files[fileName] = fileContents;
+        });
+      }
     }
 
     switch (usageTarget) {
@@ -497,12 +507,12 @@ export default function Playground({
                   ? [
                       <div className={!isIOS ? 'frame-hidden' : 'frame-visible'}>
                         <device-preview mode="ios">
-                          <iframe height={frameSize} ref={ref => handleFrameRef(ref, 'ios')} src={sourceiOS}></iframe>
+                          <iframe height={frameSize} ref={(ref) => handleFrameRef(ref, 'ios')} src={sourceiOS}></iframe>
                         </device-preview>
                       </div>,
                       <div className={!isMD ? 'frame-hidden' : 'frame-visible'}>
                         <device-preview mode="md">
-                          <iframe height={frameSize} ref={ref => handleFrameRef(ref, 'md')} src={sourceMD}></iframe>
+                          <iframe height={frameSize} ref={(ref) => handleFrameRef(ref, 'md')} src={sourceMD}></iframe>
                         </device-preview>
                       </div>,
                     ]
@@ -510,13 +520,13 @@ export default function Playground({
                       <iframe
                         height={frameSize}
                         className={!isIOS ? 'frame-hidden' : ''}
-                        ref={ref => handleFrameRef(ref, 'ios')}
+                        ref={(ref) => handleFrameRef(ref, 'ios')}
                         src={sourceiOS}
                       ></iframe>,
                       <iframe
                         height={frameSize}
                         className={!isMD ? 'frame-hidden' : ''}
-                        ref={ref => handleFrameRef(ref, 'md')}
+                        ref={(ref) => handleFrameRef(ref, 'md')}
                         src={sourceMD}
                       ></iframe>,
                     ]}

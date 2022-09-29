@@ -1,15 +1,11 @@
 ```html
 <template>
-  <ion-button>Default</ion-button>
-  <ion-button :disabled="true">Disabled</ion-button>
+  <img src="../assets/image.svg" />
 </template>
 
 <script lang="ts">
-  import { IonButton } from '@ionic/vue';
   import { defineComponent } from 'vue';
 
-  export default defineComponent({
-    components: { IonButton },
-  });
+  export default defineComponent({});
 </script>
 ```
